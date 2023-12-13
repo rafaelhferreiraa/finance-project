@@ -5,40 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Finance Sistem</title>
-    <link rel="stylesheet" href="custom.css">
+    <title>Register Finance Sistem</title>
+    <link rel="stylesheet" href="/frontend/login/custom.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 </head>
 
 <body>
     <div class="wrapper">
-        <form id="formLogin" action="">
-            <h1>Login</h1>
+        <form id="formRegister" action="">
+            <h1>Register</h1>
             <div class="input-box">
-                <input type="email" placeholder="Username" id="username" required>
+                <input type="text" placeholder="Full name" id="fullName" required>
                 <i class="bi bi-person-fill"></i>
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="E-mail" id="email" required>
+                <i class="bi bi-envelope-at"></i>
             </div>
             <div class="input-box">
                 <input type="password" placeholder="Password" id="password" required>
                 <i class="bi bi-lock"></i>
             </div>
-
-            <div class="remember-forgot">
-                <label"><input type="checkbox"> Remember me</label>
-                    <a href="#">Forgot password?</a>
+            <div class="input-box">
+                <input type="password" placeholder="Confirm password" id="confirm-password" required>
+                <i class="bi bi-lock"></i>
             </div>
 
-            <button type="submit" class="btn">Login</button>
+            <button type="submit" class="btn">Create</button>
 
             <div class="register-link">
-                <p>Don't have an account? <a href="register/register.html">Register</a></p>
+                <p>Do you have an account? <a href="/frontend/login/login.html">Sign in</a></p>
                 <br>
                 <p style="color: rgb(245, 8, 8); font-weight: 600;" class="errormsg"></p>
             </div>
         </form>
     </div>
 
-    <script src="./login.js"></script>
+    <script src="#"></script>
 
 </body>
 
