@@ -20,6 +20,7 @@ formLogin.addEventListener('submit', async (e) => {
 
         if (user.ok) {
             errormsg.classList.add('hidden')
+            window.location.href = "../main/homepage.html"
         } else {
             //alert(user.message)
             errormsg.classList.remove('hidden')
